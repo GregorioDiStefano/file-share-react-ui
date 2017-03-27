@@ -1,0 +1,17 @@
+#progressContainer {
+    width: 60%;
+    margin: auto;
+}
+
+#progressbar {
+    background-color: black;
+    border-radius: 1px; /* (height of inner div) / 2 + padding */
+    padding: 1px;
+}
+
+#progressbar > div {
+     background-color: #9b4dca;
+     width: 50%; /* Adjust with JavaScript */
+     height: 10px;
+     border-radius: 1px;
+}

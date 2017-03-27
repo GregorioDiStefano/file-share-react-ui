@@ -1,2 +1,120 @@
 @import 'main';
-@import 'common/button'
+@import 'common/button';
+
+h1 {
+  text-shadow: 1px 1px 5px;
+}
+
+.progressbar-progress {
+  background-color: rgb(176, 176, 176) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+#upload-file {
+  text-align: center;
+}
+
+#upload-file > input[type="file"] {
+  color: white;
+  width: 500px;
+}
+
+#upload-info {
+  margin: 0 auto;
+  text-align: left;
+  width: 60%;
+}
+
+input:read-only {
+  color: white;
+}
+
+.material-icons {
+  font-size: 72px;
+}
+
+label {
+  color: white;
+}
+
+tbody {
+  color: aliceblue;
+}
+
+table {
+  width: 10%;
+}
+
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+figure
+{
+    display: inline;
+    width:33%;
+    float:left;
+    margin:0px;
+    text-align:center;
+    padding:0px;
+    color: aliceblue;
+}
+
+.center {
+  margin: auto 0;
+  display: block;
+  text-align: center;
+}
+
+#infographics {
+  margin: 50px 100px 0px 100px;
+}
+
+img {
+  opacity: .60;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.copy-download-url-icon {
+  position: absolute;
+  padding: 8px;
+  pointer-events: none;
+  font-size: 24px;
+  top: 0px;
+}
+
+/* align icon */
+.left-addon .copy-download-url-icon  { left:  0px;}
+.right-addon .copy-download-url-icon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.copyBtn {
+  position: absolute;
+  border: 0.1rem solid #d1d1d1;
+  border-radius: 0px .4rem .4rem 0px;
+  padding-bottom: 10px;
+  top: 30px;
+  right: 0px;
+  border-bottom-width: 1px;
+  padding-right: 10px;
+  padding-left: 30px;
+  border-top-width: 1px;
+}

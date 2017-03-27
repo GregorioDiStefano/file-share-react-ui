@@ -15,6 +15,11 @@ module.exports = [
 		loader: "file-loader"
 	},
 	{
+		test: /\.sh$/,
+		exclude: /(node_modules|bower_components)/,
+		loader: "file-loader"
+	},
+	{
 		test: /\.(woff|woff2)$/,
 		exclude: /(node_modules|bower_components)/,
 		loader: "url-loader?prefix=font/&limit=5000"

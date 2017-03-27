@@ -43,7 +43,14 @@ module.exports = {
 		// serve index.html in place of 404 responses to allow HTML5 history
 		historyApiFallback: true,
 		port: PORT,
-		host: HOST
+		host: HOST,
+		proxy: [
+		  {
+			context: ['/**'],
+			target: 'http://192.168.1.112:8081',
+			secure: false
+		  }
+		]
 	},
 	plugins: [
 		new webpack.NoEmitOnErrorsPlugin(),
